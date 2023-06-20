@@ -1,0 +1,85 @@
+.copyDataTable{
+    color: rgb(255, 255, 255);
+    
+}
+.excelDataTable{
+    color: rgb(34, 255, 0);
+    
+}
+.pdfDataTable{
+    color: rgb(255, 2, 2);
+   
+}
+.printDataTable{
+    color: rgb(34, 34, 34);
+    
+}
+
+.select-menu{
+    width: 50px;
+  
+}
+
+
+
+
+.select-menu .select-btn{
+    display: flex;
+    height: 50px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    
+    width: 280px;
+    position: absolute;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 9999;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 60px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.option ion-icon{
+    font-size: 30px;
+    margin-right: 30px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn-1{
+    height: 50px;
+    width: 150px;
+}
