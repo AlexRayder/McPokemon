@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body >
-<dialog>JAJAJKAKA</dialog>
     <header>
         <h2 class="logo">Logo</h2>
         <nav class="navigation">
